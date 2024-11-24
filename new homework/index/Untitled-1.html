@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="/stylesheet/main.css">
+<script src="/js/script.js"> </script> 
+
+</head>
+<body>
+    
+    <div class="sticky-ad">
+        <button class="close-ad">&times;</button>
+        <a href="https://www.mcdonalds.com" target="_blank">
+            <img src="/source/creative-print-ads-48.jpg"    >
+        </a>
+    </div>
+    
+    <div class="header">
+        <a href="#default" class="logo">Berkay HEREK</a>
+        <div class="header-right">
+          <a href="/index/home.html">Home</a>
+          <a href="/index/contact.html">Contact</a>
+          <a href="/index/about.html">About</a>
+        </div>
+      </div>
+
+<div class="container col-75">
+  <form name="myForm" action="/index/action_page.html">
+    <div class="row">
+        <div class="col-100">
+          <input type="text" id="title" name="title" placeholder="Title">
+          <span class="error-message"></span>
+        </div>
+      </div>
+    <div class="row">
+      <div class="col-100">
+        <input type="text" id="name" name="name" placeholder="Name">
+        <span class="error-message"></span>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-100">
+        <input type="email" id="email" name="email" placeholder="Email">
+        <span class="error-message"></span>
+      </div>
+    </div>
+    <div class="row">
+        <div class="col-100">
+            <input type="tel" name="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="xxx-xxx-xxxx"/>
+            <span class="error-message"></span>
+        </div>            
+    </div>
+ 
+    
+    
+      <div class="row">
+        <div class="col-100">
+            <select id="cityDropdown">
+                <option value="">City</option>
+            </select>
+            <span class="error-message"></span>
+        </div>
+      </div>
+      
+      <div class="row">
+        <div class="col-100">
+            <select id="courseTypeDropdown">
+                <option value="">Course Type</option>
+            </select>
+            <span class="error-message"></span>
+        </div>
+    </div>
+
+      <div class="row">
+        <div class="col-100">
+         <p> how would you like to be contacted:</p>
+  
+      </div>
+      <div class="row">
+        <div class="col-100">
+          <select id="contact" name="contact">
+            <option value="phone" selected>By Phone</option>
+            <option value="email">By Email</option>
+            <option value="text">By SMS</option>
+          </select>
+          <span class="error-message"></span>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-100">
+          <select id="hour" name="hour">
+            <option value="" selected hidden>Pick hour</option>
+            <option value="early">10:00 - 14:00 </option>
+            <option value="late">14:00 - 18.00</option>
+            
+          </select>
+          <span class="error-message"></span>
+        </div>
+      </div>
+    
+    <div class="row">
+      <input type="submit" value="Request an appointment">
+    </div>
+  </form>
+</div>
+
+
+</body>
+</html>
